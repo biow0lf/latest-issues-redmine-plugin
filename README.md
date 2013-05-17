@@ -10,7 +10,7 @@ Installation
 
 2. Make sure your plugin folder name is *latest_issues*
 
-3. Run the plugin migrations +rake db:migrate_plugins+
+3. Run the plugin migrations +rake redmine:plugins:migrate+
 
 4. Restart your Redmine web servers (e.g. mongrel, thin, mod_rails)
 
